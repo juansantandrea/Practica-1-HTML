@@ -1,0 +1,33 @@
+EJERCITACION 1 – HTML
+Santandrea Juan Pablo
+
+1.	
+Es un lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones. Define una estructura básica y un código para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. 
+Fue creado por Tim Berners-Lee en 1991
+Sus diferentes versiones fueron:
+•	HTML 1.0 (1993)
+•	HTML 2.0 (1995)
+•	HTML 3.2 (1997)
+•	HTML 4.01 (1999)
+•	XHTML 1.0 (2000)
+•	XHTML 5 (2014) 
+
+2.	
+•	Separación de contenido y presentación: El código HTML solo debe estructurar el contenido (títulos, párrafos, listas, tablas). La apariencia visual (colores, fuentes, márgenes) debe gestionarse exclusivamente con CSS.
+•	Accesibilidad universal: Diseñar la web para que sea interpretable por cualquier usuario, incluyendo personas con discapacidades que utilicen lectores de pantalla.
+•	Uso de HTML Semántico: Utilizar las etiquetas apropiadas según el significado del contenido.
+•	Validación de código: Seguir los estándares para garantizar que la estructura no contenga errores sintácticos y sea interpretada por igual en todos los navegadores.
+
+
+3.	 
+Un elemento se considera desaprobado cuando se ha quedado obsoleto técnicamente, sigue siendo soportado por los navegadores por motivos de compatibilidad con sitios viejos, pero podría desaparecer en el futuro.
+Un elemento se considera obsoleto cuando ha sido completamente eliminado de la especificación estándar. Los navegadores no tienen la obligación de soportarlo y su uso puede causar que la página no valide o no se renderice de forma correcta.
+
+4.	La declaración del tipo de documento (DTD Document Type Declaration), esta sección se ubica en la primera línea del archivo HTML, es decir antes de la marca html. Según el rigor de HTML 4.01 utilizado podemos declararla como:  
+•	Declaración transitoria
+•	Declaración estricta
+•	Declaración de los marcos.
+
+5.	Los metadatos son datos sobre los datos. Es información descriptiva de la página web que no se muestra visualmente al usuario, pero que resulta fundamental para los navegadores, motores de búsqueda (Google, Bing) y redes sociales. Incluye la codificación de caracteres, la descripción del sitio, palabras clave, el autor y la configuración del diseño responsive.
+Se declaran dentro de la sección <head> de la página utilizando la etiqueta <meta>.
+
