@@ -1,6 +1,8 @@
 EJERCITACION 1 – HTML
 Santandrea Juan Pablo
 
+EJERCICIO 1
+
 1.	
 Es un lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones. Define una estructura básica y un código para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. 
 Fue creado por Tim Berners-Lee en 1991
@@ -31,3 +33,104 @@ Un elemento se considera obsoleto cuando ha sido completamente eliminado de la e
 5.	Los metadatos son datos sobre los datos. Es información descriptiva de la página web que no se muestra visualmente al usuario, pero que resulta fundamental para los navegadores, motores de búsqueda (Google, Bing) y redes sociales. Incluye la codificación de caracteres, la descripción del sitio, palabras clave, el autor y la configuración del diseño responsive.
 Se declaran dentro de la sección <head> de la página utilizando la etiqueta <meta>.
 
+EJERCICIO 2
+
+
+a. 
+
+Seccion: Head o Body.
+
+Efecto: No es visible en el programa. Es un comentario 
+
+Atributos: no posee. 
+
+Etiquetas: <!-- ... -->
+
+b. 
+
+Seccion: Body.
+
+Efecto: Define la division de un bloque o seccion vacia.
+
+Atributos: id = (opcional) bloque1. 
+
+Etiquetas: <div>; </div>.
+
+c. 
+
+Seccion: <body>
+
+Efecto: imagen de 32x32 pixeles.
+
+Atributos: src="" (Obligatorio): Especifica la ruta de la imagen (aquí vacía).
+alt = Texto alternativo si no carga la imagen.
+id = Identificador único.
+name = Nombre del elemento.
+width = Ancho en píxeles.
+height = Alto en píxeles.
+longdesc = Enlace a una descripción larga.
+
+d. Sección: <head>
+
+Efecto: Proporciona metadatos invisibles al usuario para motores de búsqueda (palabras clave) y define la fecha de expiración para la caché.
+
+Etiquetas: Dos elementos <meta>.
+
+Atributos (Línea 1):
+name = Tipo de metadato.
+lang = Idioma del contenido.
+content = El valor del metadato.
+
+Atributos (Línea 2):
+http-equiv = Cabecera HTTP simulada.
+content= Valor de expiración de caché.
+
+e. 
+
+Sección: <body>
+
+Efecto: Crea un hipervínculo navegable hacia la URL indicada.
+
+Etiquetas: Elemento de enlace <a> con apertura <a> y cierre </a>.
+
+Atributos: 
+href = Destino de la navegación.
+type = Tipo MIME del recurso de destino.
+hreflang = Idioma del recurso enlazado.
+charset="utf-8" (Opcional/Obsoleto en HTML5): Codificación de caracteres del recurso.
+rel="help" (Opcional): Tipo de relación entre el documento actual y el destino.
+
+f.
+
+Seccion: Body
+Sección: <body>
+
+Efecto: Renderiza una tabla estructurada de 200 píxeles de ancho con un título ("Título") y 3 filas (encabezados de columnas A, B, C y filas numeradas 1º, 2º con celdas vacías representadas por &nbsp;).
+
+Elementos/Etiquetas:
+
+<table>...</table> (Elemento raíz de tabla)
+
+<caption>...</caption> (Título de la tabla)
+
+<tr>...</tr> (Filas)
+
+<th>...</th> (Celdas de encabezado)
+
+<td>...</td> (Celdas de datos)
+
+Atributos:
+
+En <table>:
+
+width="200" (Opcional): Ancho de la tabla.
+
+summary="Datos correspondientes..." (Opcional/Obsoleto en HTML5): Descripción accesible del contenido.
+
+En <caption>:
+
+align="top" (Opcional/Obsoleto): Posición del título.
+
+En <th>:
+
+scope="col" o scope="row" (Opcional): Asocia la celda de encabezado a columnas o filas para lectores de pantalla.
