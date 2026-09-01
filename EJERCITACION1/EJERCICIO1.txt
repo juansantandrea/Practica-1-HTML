@@ -102,35 +102,28 @@ rel="help" (Opcional): Tipo de relación entre el documento actual y el destino.
 
 f.
 
-Seccion: Body
 Sección: <body>
 
-Efecto: Renderiza una tabla estructurada de 200 píxeles de ancho con un título ("Título") y 3 filas (encabezados de columnas A, B, C y filas numeradas 1º, 2º con celdas vacías representadas por &nbsp;).
+Efecto: Renderiza una tabla estructurada de 200 píxeles de ancho con un título y 3 filas.
 
-Elementos/Etiquetas:
-
+Elementos/Etiquetas: 
 <table>...</table> (Elemento raíz de tabla)
-
 <caption>...</caption> (Título de la tabla)
-
 <tr>...</tr> (Filas)
-
 <th>...</th> (Celdas de encabezado)
-
 <td>...</td> (Celdas de datos)
 
 Atributos:
 
 En <table>:
-
-width="200" (Opcional): Ancho de la tabla.
-
-summary="Datos correspondientes..." (Opcional/Obsoleto en HTML5): Descripción accesible del contenido.
+width = Ancho de la tabla.
+summary = Descripción accesible del contenido.
 
 En <caption>:
-
-align="top" (Opcional/Obsoleto): Posición del título.
+align = Posición del título.
 
 En <th>:
+scope = Asocia la celda de encabezado a columnas o filas para lectores de pantalla.
 
-scope="col" o scope="row" (Opcional): Asocia la celda de encabezado a columnas o filas para lectores de pantalla.
+
+EJERCICIO 3
