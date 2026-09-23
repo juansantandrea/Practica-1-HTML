@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+    <title>Ejercitación 5 - Marcos</title>
+</head>
+
+<frameset rows="100,*,50">
+    <!-- Fila superior: Encabezado y Logo -->
+    <frameset cols="*,200">
+        <frame src="encabezado.htm" name="marco_encabezado" />
+        <frame src="logo.htm" name="marco_logo" />
+    </frameset>
+    
+    <!-- Fila central: Menú principal y Contenido dinámico -->
+    <frameset cols="200,*">
+        <frame src="menu.htm" name="marco_menu" />
+        <frame src="Articulos.htm" name="marco_principal" />
+    </frameset>
+
+    <!-- Fila inferior: Pie de página -->
+    <frame src="pie.htm" name="marco_pie" />
+
+    <noframes>
+        <body>
+            <p>Su navegador no soporta marcos.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>

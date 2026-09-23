@@ -127,3 +127,54 @@ scope = Asocia la celda de encabezado a columnas o filas para lectores de pantal
 
 
 EJERCICIO 3
+
+a. 
+Línea 1: Abre el enlace en la misma pestaña/pantalla del navegador.
+Línea 2: Agrega target="_blank", lo que obliga al navegador a abrir el sitio en una nueva pestaña o ventana.
+Línea 3: Visualmente se ve igual al enlace normal, pero agrega añade metadatos explicativos para navegadores y motores de búsqueda. 
+Línea 4: href="#" crea un enlace ficticio que recarga/desplaza hacia el inicio superior de la página actual.
+Línea 5: Crea un enlace interno (ancla) que busca dentro del mismo documento un elemento cuyo destino sea id="arriba" o name="arriba".
+Línea 6: No tiene contenido textual, pero actúa como marcador de posición con el nombre arriba.
+
+b.
+Línea 1: La imagen es estática. Solo el texto "Click aquí" es cliqueable.
+Línea 2: La imagen es cliqueable, pero el texto "Click aquí" estatico. 
+Línea 3: Tanto la imagen como el texto forman parte de un mismo enlace.
+Línea 4: La imagen y el texto son dos enlaces separados e independientes, pero ambos apuntan al mismo destino.
+
+c.
+Línea 1: Se visualiza con viñetas o puntos.
+Línea 2: Lista ordenada. Se visualiza numerada automáticamente.
+Línea 3: Igual que la linea 2 pero un poco mas separadas entre si. 
+Línea 4: Igual que la linea 2 pero con una salto de linea. 
+
+d.
+Visualmente son casi identicos, pero la Opcion A utiliza <th>; en el cual los navegadores centran el texto y lo aplican en negrita, otorgando semántica correcta de tabla.
+En la Opcion B esto lo hace manualmente mediante <td> con negrita manual (<strong>) y alineación centrada manual (<div align="center">). 
+
+e.
+Opción A: Usa la etiqueta semántica <caption>, que coloca el título fuera de las celdas pero ligado a la estructura de la tabla (por defecto arriba y centrado).
+Opción B: Incluye el título como la primera fila interna de la tabla, expandida a través de 3 columnas usando colspan="3". 
+Visualmente son identicos. 
+
+f.
+Opción A: rowspan="2" hace que la primera celda se extienda verticalmente abarcando 2 filas consecutivas.
+Opción B: colspan="2" hace que la primera celda se extienda horizontalmente abarcando 2 columnas consecutivas dentro de la misma fila.
+
+g.
+Tabla 1: Usa los valores por defecto del navegador para el relleno interior de celdas (cellpadding) y la separación/espacio entre los bordes de las celdas (cellspacing).
+Tabla 2: Al fijar cellpadding="0" y cellspacing="0", elimina completamente el relleno interno de las celdas y colapsa las separaciones entre bordes, generando celdas compactas con bordes pegados.
+
+h.
+Formulario 1: Método POST de forma oculta al backend procesar.php. Agrupa estéticamente los campos con marco y título mediante <fieldset> y <legend>. El campo de clave es tipo password.
+Formulario 2: Método GET (expone los datos ingresados en la URL). No usa <fieldset>. El campo clave es tipo text.
+Formulario 3: Intenta enviar los datos por correo electrónico. Usa type="reset" en lugar de submit, por lo que hacer clic borra los datos ingresados en lugar de enviarlos.
+
+i.
+El primer boton permite agregar una elemento(como la imagen) mientras que el segundo no. 
+
+j.
+OPCION A: solo se puede seleccionar uno a la vez.
+OPCION B: son dos opciones iguales, se seleccionan los dos juntos. 
+
+k. 
